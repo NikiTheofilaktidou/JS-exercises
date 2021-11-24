@@ -1,0 +1,4 @@
+8kyu ~ Check if bool is true and return "Yes", or else "No"
+function boolToWord(bool) {
+    bool ? console.log("Yes") : console.log("No");
+}
