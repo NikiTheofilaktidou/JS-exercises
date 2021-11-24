@@ -1,0 +1,22 @@
+//the forecast today is 293 Kelvin.
+const kelvin = 1;
+
+//Kelvin is 273 more than Celsius.
+const celsius = kelvin - 273;
+
+//Convert Celsius to Fahrenheit.
+var fahrenheit = celsius * (9 / 5) + 32;
+
+
+//Round down the fahrenheit.
+fahrenheit = Math.floor(fahrenheit);
+
+console.log(`The temperature is ${fahrenheit} degrees Fahrenheit.`)
+
+// Convert to Newton
+let newton = celsius * (33 / 100);
+ 
+// Round down
+newton = Math.floor(newton);
+ 
+console.log(`The temperature is ${newton} degrees Newton.`);
