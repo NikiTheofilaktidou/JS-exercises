@@ -1,0 +1,23 @@
+//This is my age
+var myAge = 47;
+
+//The 2 first years
+let earlyYears = 2;
+
+earlyYears *= 10.5;
+
+// The years after the first 2
+var laterYears = myAge - 2; 
+
+//The number of dog years accounted after the first 2
+laterYears *= 4;
+
+console.log(earlyYears);
+console.log(laterYears);
+
+let myAgeInDogYears = earlyYears + laterYears;
+
+let myName = 'Niki'.toUpperCase();
+
+console.log(`My name is ${myName}. I am ${myAge} years old in human years which is ${myAgeInDogYears} years old in dog years.`);
+
